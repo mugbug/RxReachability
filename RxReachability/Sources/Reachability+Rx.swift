@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Reachability
+import ReachabilitySwift
 import RxCocoa
 import RxSwift
 

@@ -96,7 +96,7 @@ extension ViewController {
 #### 1. Be sure to store an instance of `Reachability` somewhere on your `AppDelegate` or similar, and start the notifier.
 
 ```swift
-import Reachability
+import ReachabilitySwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -115,7 +115,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 #### 2. Subscribe to any of the bindings to know when a change happens.
 
 ```swift
-import Reachability
+import ReachabilitySwift
 import RxReachability
 import RxSwift
 
